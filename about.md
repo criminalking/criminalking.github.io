@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hello, my name is Conny Lu, and I am a senior undergraduate student at Tsinghua University, graduating July of 2017 with a B.Eng degree in Automation. This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}).
+Hello, my name is Conny Lu, and I am a senior undergraduate student at Tsinghua University, graduating July of 2017 with a B.E degree in Automation. This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}).
 
 ### Interests
 
