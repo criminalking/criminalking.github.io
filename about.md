@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /home/
+permalink: /about/
 ---
 
 Hello, my name is Conny Lu, and I am a senior undergraduate student at Tsinghua University, graduating July of 2017 with a B.E degree in Automation(EECS). This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}). Now I am working with Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
