@@ -8,12 +8,11 @@ Hello, my name is Conny Lu, and I am a senior undergraduate student at Tsinghua 
 
 ### Research Interests
 
-My research interests are `VR/AR/MR`, `computer graphics`(including animation, 3D reconstruction, rendering and virtual environment) and `visual neuroscience`. My most work projects focused on Computer vision, e.g. image matting, hand recognition, pose estimation, and neural style. Now I change slightly my direction to computer graphics and do a project about automatic rigging and character animation.
+My research interests are mainly `VR/AR/MR` and `Computer Graphics`(including animation, 3D reconstruction, rendering and virtual environment). `Visual Neuroscience` and `Artificial Intelligence` also fascinate me a lot. My most work projects focused on Computer Vision, e.g. image matting, hand recognition, pose estimation, and neural style. Now I change slightly my direction to Computer Graphics and I am doing a project about automatic rigging and character animation.
 
 ### Career Plan
 
-
-
+I want to become an expert in VR, thus I decide to apply for a PhD program. After this, professor in universities or researcher in companies(Disney is my dream company :)) are my optimal choice.
 
 ### Dream
 
