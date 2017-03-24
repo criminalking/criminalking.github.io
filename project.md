@@ -9,6 +9,9 @@ permalink: /project/
 `3/2017 - ` <br>
 `Advised by Yebin Liu, Department of Automation, Tsinghua Univeristy`
 
+System: Mac OS X <br>
+Programming Language: c++/Python/Matlab
+
 In this project we capture human motion from a video and then embed it into a static 3D scan human body to make this body move. Hopefully I can put this moving character into VR HMD. This is amazing!!! I am working now!!! <br>
 To be continued...
 
@@ -17,8 +20,11 @@ To be continued...
 `7/2016 - 9/2016` <br>
 `Advised by Yuhao Lu, Turing Robot`
 
-Developed a pose estimation system with binocular camera in ROS platform and make robot to perform simulations of human movement in real-time.
-Proposed an algorithm to locate people, match ICP, extract skeleton and compute similarity.
+System: Ubuntu 16.04 <br>
+Programming Language: c++/Python
+
+Developed a pose estimation system with binocular camera in ROS platform and make robot to perform simulations of human movement in real-time. <br>
+Proposed an algorithm to locate people, match ICP, extract skeleton and compute similarity. <br>
 Implemented a 3D body model composed of 10 main body parts to improve results.
 
 This system ran at ~5-10 frames per second—the rate of a standard PC—and thus satisfied the requirements of the industry.
@@ -28,21 +34,32 @@ This system ran at ~5-10 frames per second—the rate of a standard PC—and thu
 `9/2016 - ` <br>
 `Advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
+System: Ubuntu 14.04 <br>
+Programming Language: c++/lua
 
+Worked on photographer style transfer based on neural style transfer and colorization <br>
+Used CRF method to solve the problem of color bleeding during the transfer <br>
+Familiar with neural networks and deep learning.
 
 ## Image and Video Matting in Real-Time
 
 `3/2016 - 6/2016` <br>
 `Advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
+System: Mac OS X <br>
+Programming Language: c++
+
 An input image including a person and its trimap were used to extract the person to a very fine degree. We constructed a pipeline to automatically generate trimap, to think over both local and nonlocal methods and the latter consists of sampling-based and affinity-based matting(`my work`), and to speed up with GPU.
 
-<img src="{{ site.baseurl }}/images/project1_3.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 250px;"/> <img src="{{ site.baseurl }}/images/project1_4.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 250px;"/> <img src="{{ site.baseurl }}/images/project1_5.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 250px;"/>
+<img src="{{ site.baseurl }}/images/project1_3.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_4.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_5.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/>
 
 
 ## An Augmented Reality Technology based on Hand Recognition
 
 `3/2015 - 6/2015`
+
+System: Windows 8 <br>
+Programming Language: c++/qt
 
 In this project we developed an AR system(also a headset product) integrating camera, computer and projector allowed users to control electronic appliances and play games on the papers, walls or some other normal places.
 
