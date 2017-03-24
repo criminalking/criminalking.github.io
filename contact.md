@@ -10,4 +10,4 @@ Office: 825 Central building, Tsinghua University
 
 Phone: (86) 13021254922
 
-Email: [luxinran1995@hotmail.com](mailto:luxinran1995@hotmail.com)
+Email: luxinran1995 at hotmail dot com
