@@ -6,50 +6,78 @@ permalink: /project/
 
 ## Motion Capture and Character Animation
 
-`3/2017 - ` <br>
-`Advised by Yebin Liu, Department of Automation, Tsinghua Univeristy`
+`3/2017 - present` <br>
+`Lab work, advised by Yebin Liu, Department of Automation, Tsinghua Univeristy`
 
-System: Mac OS X <br>
-Programming Language: c++/Python/Matlab
+* System: Mac OS X 10.12 <br>
+* Programming Language: c++/Python/Matlab
 
-In this project we capture human motion from a video and then embed it into a static 3D scan human body to make this body move. Hopefully I can put this moving character into VR HMD. This is amazing!!! I am working now!!! <br>
+In this project, I capture human motion from a video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. Hopefully I can put this moving character into **VR HMD**. This is amazing!!! I am working now!!! <br>
 To be continued...
+
+<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+(Stitched example image from *Avatar Reshaping and Automatic Rigging Using a Deformable Model* and *Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image*, not the final result)
 
 ## Pose Imitation of Robot in ROS System
 
 `7/2016 - 9/2016` <br>
-`Advised by Yuhao Lu, Turing Robot`
+`Research intern, advised by Yuhao Lu, Turing Robot`
 
-System: Ubuntu 16.04 <br>
-Programming Language: c++/Python
+* System: Ubuntu 16.04 <br>
+* Programming Language: c++/Python
 
-Developed a pose estimation system with binocular camera in ROS platform and make robot to perform simulations of human movement in real-time. <br>
-Proposed an algorithm to locate people, match ICP, extract skeleton and compute similarity. <br>
-Implemented a 3D body model composed of 10 main body parts to improve results.
+In this project, I teach robot to imitate human movement(dance) in real-time and then let them teach children dance, which is inspired by my interest in street dance "popping"(i.e. "robot dance"). So we developed a pose estimation system with binocular camera in ROS platform.
 
-This system ran at ~5-10 frames per second—the rate of a standard PC—and thus satisfied the requirements of the industry.
+* Proposed an algorithm to locate people, match ICP, extract skeleton and compute similarity <br>
+* Implemented a 3D body model composed of 10 main body parts to improve results <br>
+* Ran at ~5-10 frames per second—the rate of a standard PC—and achieved an accuracy over 90%, thus satisfied the requirements of the industry
+
+(Robots are being produced now. Unfortunately no images are allowed.)
+
+## Offline Ray tracing(Course Work)
+
+`11/2016 - 1/2017` <br>
+`Advanced Computer Graphics's Course Work`
+
+* System: Mac OS X 10.12 <br>
+* Programming Language: c++
+
+In this project, I built a system to complete Monto Carlo Ray Tracing.
+
+* Implemented circle, rectangle, and triangle mesh, support texture mapping
+* Completed diffuse reflection, specular reflection and refraction
+* Used KD-tree to accelerate
+
+<img src="{{ site.baseurl }}/images/project1_6.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/> <img src="{{ site.baseurl }}/images/project1_7.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
 
 ## Neural Color Transfer
 
-`9/2016 - ` <br>
-`Advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
+`9/2016 - 12/2016` <br>
+`Lab work, advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
-System: Ubuntu 14.04 <br>
-Programming Language: c++/lua
+* System: Ubuntu 14.04 <br>
+* Programming Language: c++/lua
 
-Worked on photographer style transfer based on neural style transfer and colorization <br>
-Used CRF method to solve the problem of color bleeding during the transfer <br>
-Familiar with neural networks and deep learning.
+In this project, I transfered style of one photographer to another image. Inputs are many images from one photographer and one test image. We use crawler to get images from flickr and train a neural network to extract style of the photographer.
+
+* Implemented advanced colorization algorithm <br>
+* Used CRF method to solve the problem of color bleeding during the transfer <br>
+* Trained a new neural network to smooth the result
+
+<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
 
 ## Image and Video Matting in Real-Time
 
 `3/2016 - 6/2016` <br>
-`Advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
+`Lab work, advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
-System: Mac OS X <br>
-Programming Language: c++
+* System: Mac OS X 10.12 <br>
+* Programming Language: c++
 
-An input image including a person and its trimap were used to extract the person to a very fine degree. We constructed a pipeline to automatically generate trimap, to think over both local and nonlocal methods and the latter consists of sampling-based and affinity-based matting(`my work`), and to speed up with GPU.
+In this project, I used an input image including a person and its trimap to extract the person to a very fine degree.
+
+* Constructed a pipeline to automatically generate trimap, to think over both local and nonlocal methods and the latter consists of sampling-based and affinity-based matting(`my work`), and to speed up with GPU.
+* Improved the algorithm by using the expanded regions to accelerate computing speed
 
 <img src="{{ site.baseurl }}/images/project1_3.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_4.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_5.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/>
 
@@ -57,23 +85,28 @@ An input image including a person and its trimap were used to extract the person
 ## An Augmented Reality Technology based on Hand Recognition
 
 `3/2015 - 6/2015`
+`33rd Challenge Cup`
 
-System: Windows 8 <br>
-Programming Language: c++/qt
+* System: Windows 8 <br>
+* Programming Language: c++/qt
 
-In this project we developed an AR system(also a headset product) integrating camera, computer and projector allowed users to control electronic appliances and play games on the papers, walls or some other normal places.
-
-This's a diagram showing the structure of our system.
-
-<img src="{{ site.baseurl }}/images/project1_1.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
+In this project, we developed an AR system(also a headset product) integrating camera, computer and projector allowed users to control electronic appliances and play games on the papers, walls or some other normal places.
 
 **Camera**: Detect user inputs, mainly are hand posture information <br>
 **Computer**: Handle user inputs(image preprocessing and hand recognition) and generate feedback user wants(e.g. open a video) <br>
 **Projector**: Project the virtual information generated by computer to the real world(e.g. Wall/Paper/Curtain) <br>
 **Human**: Use hands to click or drag something
 
+This's a diagram showing the structure of our system.
+
+<img src="{{ site.baseurl }}/images/project1_1.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+
 This is our poor equipment(lack of beauty, but not heavy).
 
-<img src="{{ site.baseurl }}/images/project1_2.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/project1_2.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
 
 Our product, due to its excellent innovation and practicability, won prizes in the 33rd Challenge Cup of Tsinghua, the Huawei Special Award (5/400), and the EMC Special Award (3/400).
+
+
+
+All the codes above could be found in my Github.
