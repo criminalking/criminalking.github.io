@@ -35,4 +35,4 @@ Here's a fantastic [video](https://www.youtube.com/watch?v=Ihx1BO7_Jvc)!
 I have learned German for 6 years in my middle school and past the DSD C1 examination. At the first year in the high school, I spent one term in Goettingen, Germany as an exchange student(Austauschschueler). That was a very happy and easy time. I met a lot of interesting people and I love Germany kids very much! <br>
 Below is the beautiful wall of my exchange Germany high school.
 
-<img src="{{ site.baseurl }}/images/about1_3.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/about1_3.jpeg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
