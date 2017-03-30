@@ -15,7 +15,7 @@ Programming Language: c++/Python/Matlab
 In this project, I capture human motion from a video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. Hopefully I can put this moving character into **VR HMD**. This is amazing!!! I am working now!!! <br>
 To be continued...
 
-<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 450px;"/> <br>
+<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
 (Stitched example image from *Avatar Reshaping and Automatic Rigging Using a Deformable Model* and *Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image*, not the final result)
 
 ## Pose Imitation of Robot in ROS System
@@ -64,7 +64,7 @@ In this project, I transfered style of one photographer to another image. Inputs
 * Used CRF method to solve the problem of color bleeding during the transfer <br>
 * Trained a new neural network to smooth the result
 
-<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 450px;"/>
+<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/>
 
 ## Image and Video Matting in Real-Time
 
@@ -76,7 +76,7 @@ Programming Language: c++
 
 In this project, I used an input image including a person and its trimap to extract the person to a very fine degree.
 
-* Constructed a pipeline to automatically generate trimap, to think over both local and nonlocal methods and the latter consists of sampling-based and affinity-based matting(`my work`), and to speed up with GPU.
+* Constructed a pipeline to automatically generate trimap, to think over both local and nonlocal methods and the latter consists of sampling-based and affinity-based matting(my work), and to speed up with GPU.
 * Improved the algorithm by using the expanded regions to accelerate computing speed
 
 <img src="{{ site.baseurl }}/images/project1_3.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_4.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/> <img src="{{ site.baseurl }}/images/project1_5.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 230px;"/>
@@ -84,7 +84,7 @@ In this project, I used an input image including a person and its trimap to extr
 
 ## An Augmented Reality Technology based on Hand Recognition
 
-`3/2015 - 6/2015`
+`3/2015 - 6/2015` <br>
 `33rd Challenge Cup`
 
 System: Windows 8 <br>
@@ -108,5 +108,5 @@ This is our poor equipment(lack of beauty, but not heavy).
 Our product, due to its excellent innovation and practicability, won prizes in the 33rd Challenge Cup of Tsinghua, the Huawei Special Award (5/400), and the EMC Special Award (3/400).
 
 
-
+<br>
 All the codes above could be found in my Github.
