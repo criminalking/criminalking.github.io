@@ -9,13 +9,13 @@ permalink: /project/
 `3/2017 - present` <br>
 `Lab work, advised by Yebin Liu, Department of Automation, Tsinghua Univeristy`
 
-* System: Mac OS X 10.12 <br>
-* Programming Language: c++/Python/Matlab
+System: Mac OS X 10.12 <br>
+Programming Language: c++/Python/Matlab
 
 In this project, I capture human motion from a video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. Hopefully I can put this moving character into **VR HMD**. This is amazing!!! I am working now!!! <br>
 To be continued...
 
-<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 450px;"/> <br>
 (Stitched example image from *Avatar Reshaping and Automatic Rigging Using a Deformable Model* and *Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image*, not the final result)
 
 ## Pose Imitation of Robot in ROS System
@@ -23,8 +23,8 @@ To be continued...
 `7/2016 - 9/2016` <br>
 `Research intern, advised by Yuhao Lu, Turing Robot`
 
-* System: Ubuntu 16.04 <br>
-* Programming Language: c++/Python
+System: Ubuntu 16.04 <br>
+Programming Language: c++/Python
 
 In this project, I teach robot to imitate human movement(dance) in real-time and then let them teach children dance, which is inspired by my interest in street dance "popping"(i.e. "robot dance"). So we developed a pose estimation system with binocular camera in ROS platform.
 
@@ -39,8 +39,8 @@ In this project, I teach robot to imitate human movement(dance) in real-time and
 `11/2016 - 1/2017` <br>
 `Advanced Computer Graphics's Course Work`
 
-* System: Mac OS X 10.12 <br>
-* Programming Language: c++
+System: Mac OS X 10.12 <br>
+Programming Language: c++
 
 In this project, I built a system to complete Monto Carlo Ray Tracing.
 
@@ -55,8 +55,8 @@ In this project, I built a system to complete Monto Carlo Ray Tracing.
 `9/2016 - 12/2016` <br>
 `Lab work, advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
-* System: Ubuntu 14.04 <br>
-* Programming Language: c++/lua
+System: Ubuntu 14.04 <br>
+Programming Language: c++/lua
 
 In this project, I transfered style of one photographer to another image. Inputs are many images from one photographer and one test image. We use crawler to get images from flickr and train a neural network to extract style of the photographer.
 
@@ -64,15 +64,15 @@ In this project, I transfered style of one photographer to another image. Inputs
 * Used CRF method to solve the problem of color bleeding during the transfer <br>
 * Trained a new neural network to smooth the result
 
-<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 450px;"/>
 
 ## Image and Video Matting in Real-Time
 
 `3/2016 - 6/2016` <br>
 `Lab work, advised by Songhai Zhang, Department of CS, Tsinghua Univeristy`
 
-* System: Mac OS X 10.12 <br>
-* Programming Language: c++
+System: Mac OS X 10.12 <br>
+Programming Language: c++
 
 In this project, I used an input image including a person and its trimap to extract the person to a very fine degree.
 
@@ -87,8 +87,8 @@ In this project, I used an input image including a person and its trimap to extr
 `3/2015 - 6/2015`
 `33rd Challenge Cup`
 
-* System: Windows 8 <br>
-* Programming Language: c++/qt
+System: Windows 8 <br>
+Programming Language: c++/qt
 
 In this project, we developed an AR system(also a headset product) integrating camera, computer and projector allowed users to control electronic appliances and play games on the papers, walls or some other normal places.
 
@@ -99,11 +99,11 @@ In this project, we developed an AR system(also a headset product) integrating c
 
 This's a diagram showing the structure of our system.
 
-<img src="{{ site.baseurl }}/images/project1_1.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+<img src="{{ site.baseurl }}/images/project1_1.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
 
 This is our poor equipment(lack of beauty, but not heavy).
 
-<img src="{{ site.baseurl }}/images/project1_2.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 300px;"/>
+<img src="{{ site.baseurl }}/images/project1_2.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
 
 Our product, due to its excellent innovation and practicability, won prizes in the 33rd Challenge Cup of Tsinghua, the Huawei Special Award (5/400), and the EMC Special Award (3/400).
 
