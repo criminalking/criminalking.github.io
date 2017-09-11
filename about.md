@@ -4,19 +4,19 @@ title: About me
 permalink: /about/
 ---
 
-Hello, my name is Xinran(Conny) Lu, and I am a senior undergraduate student at Tsinghua University, graduating July of 2017 with a B.E degree in Automation(EECS). This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}). Now I am working with Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
+Hello, my name is Xinran(Conny) Lu, and I am a first year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by [Henry Fuchs](http://henryfuchs.web.unc.edu/). This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}). I received my BS degree in Automation from Tsinghua University, worked with Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
 
 ### Research Interests
 
-My research interests are mainly **VR/AR/MR** and **Computer Graphics**(including animation, 3D reconstruction, rendering and virtual environment). **Visual Neuroscience** and **Artificial Intelligence** also fascinate me a lot. My most work projects focused on Computer Vision, e.g. image matting, hand recognition, and neural style. Now I change slightly my direction to Computer Graphics and I am doing a project about automatic rigging and character animation.
+My research interests are mainly **VR/AR** and **Computer Graphics**(including 3D reconstruction, rendering and virtual environment). **Visual Neuroscience** and **Artificial Intelligence** also fascinate me a lot. My projects focused on Computer Vision (e.g. image matting, hand recognition, neural style) and Computer Graphics (e.g. 3D reconstruction, character animation, pose estimation).
 
 ### Dream
 
-I wish to immerse myself in a "generated world" where I create figures, scenes and the whole world by myself, interact with virtual agents and experience other people's life. Helping other people to define their own world(some people maybe only want to add some elements in their world) is the next step. "Enter Into Virtuality" is my greatest and only hope.
+I wish to immerse myself in a "generated world" where I create figures, scenes and the whole world by myself, interact with virtual agents and experience different life. Helping other people to define their own world(VR) or add some elements in their world(AR) is the next step. "Enter Into Virtuality" is my greatest dream.
 
 ### Geek
 
-One of my classmates and I made a Light Cube in our second year of college after learning an interesting course called Digital Electronics. We also used this Light Cube to show different patterns, such as his ex-girlfriend's name. HAHAHA...
+One of my classmates and I made a Light Cube in our second year of college after learning an interesting course called Digital Electronics. We also used this Light Cube to show different patterns, such as his ex-girlfriend's name. :)
 
 <img src="{{ site.baseurl }}/images/about1_2.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 200px;"/>
 

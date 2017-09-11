@@ -3,20 +3,29 @@ layout: page
 title: Projects
 permalink: /project/
 ---
+## Egocentric Face Reconstruction with side cameras on VR glasses
+
+`8/2017 - Now` <br>
+`Research assistant, advised by Henry Fuchs, Department of Computer Science, University of North Carolina at Chapel Hill`
+
+This is a very useful project in This is amazing!!! I am working now!!! <br>
+To be continued...
 
 ## Motion Capture and Character Animation
 
-`3/2017 - present` <br>
+`2/2017 - 7/2017` <br>
 `Lab work, advised by Yebin Liu, Department of Automation, Tsinghua Univeristy`
 
 System: Mac OS X 10.12 <br>
 Programming Language: c++/Python/Matlab
 
-In this project, I capture human motion from a video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. Hopefully I can put this moving character into **VR HMD**. This is amazing!!! I am working now!!! <br>
-To be continued...
+In this project, I capture human motion from a RGB video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. As far as I know, this is the first work to address this task with only one RGB video. I proposed two methods to complete it. 
 
 <img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
-(Stitched example image from *Avatar Reshaping and Automatic Rigging Using a Deformable Model* and *Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image*, not the final result)
+
+* Proposed a new method to address character animation with only one RGB camera(video)
+* Integrated shape parameter from human model and pose parameter from video and optimized results with inter-frame information
+* Be able to handle apparent occlusion and big range variation of poses
 
 ## Pose Imitation of Robot in ROS System
 
