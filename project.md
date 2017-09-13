@@ -5,10 +5,10 @@ permalink: /project/
 ---
 ## Egocentric Face Reconstruction with side cameras on VR glasses
 
-`8/2017 - Now` <br>
+`8/2017 - Present` <br>
 `Research assistant, advised by Henry Fuchs, Department of Computer Science, University of North Carolina at Chapel Hill`
 
-This is a very useful project in This is amazing!!! I am working now!!! <br>
+This project is the beginning of my PhD career. I'm going to use two side-face images captured by two RGB cameras fixed on Hololens to construct user's face. Face reconstruction with side faces is still a challenging problem and nobody can reconstruct a photorealistic face with just side-face images now. But this work is very amazing!!! It could be used on AR telepresence system, just like [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/), VR game and so on. Imaging you are in the virtual world, stand in front of the virtual mirror and smile, what do you want to see? Also a smiling man, right? But wait, stay with me. I am working now! <br>
 To be continued...
 
 ## Motion Capture and Character Animation
@@ -19,9 +19,13 @@ To be continued...
 System: Mac OS X 10.12 <br>
 Programming Language: c++/Python/Matlab
 
-In this project, I capture human motion from a RGB video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. As far as I know, this is the first work to address this task with only one RGB video. I proposed two methods to complete it. 
+In this project, I captured human motion from a RGB video and then embed it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. As far as I know, this is the first work to address this task with only one RGB video. I proposed two methods to
 
-<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
+Method1:<br> complete it. 
+
+
+Method2:<<br>
+<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
 
 * Proposed a new method to address character animation with only one RGB camera(video)
 * Integrated shape parameter from human model and pose parameter from video and optimized results with inter-frame information
