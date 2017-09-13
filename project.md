@@ -10,7 +10,7 @@ permalink: /project/
 
 This project is the beginning of my PhD career. I'm going to use two side-face images captured by two RGB cameras fixed on Hololens to construct user's face. Face reconstruction with side faces is still a challenging problem and nobody can reconstruct a photorealistic face with just side-face images now. But this work is very amazing!!! It could be used on AR telepresence system, just like [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/), VR game and so on. Imaging you are in the virtual world, stand in front of the virtual mirror and smile, what do you want to see? Also a smiling man, right? That's what I'm doing. <br>
 
-<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
+<img src="{{ site.baseurl }}/images/project1_11.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 900px;"/> <br>
 This is camera installation result of our project. <br>
 
 To be continued...
@@ -25,11 +25,11 @@ Programming Language: c++/Python/Matlab
 
 In this project, I captured human motion from a RGB video and then embedded it into a static 3D scan human body(We scan human body using our lab's approach) to make this body move. As far as I know, this is the first work to address this task with only one RGB video. I proposed two methods to complete it. The first one extracted 3D skeleton from a RGB video by estimating 2D heatmap. In the meantime, body weights and 3D skeleton was also extracted from 3D static human scan. After this, we computed a transformation matrix between these two 3D skeletons. In the end, we got the result by LBS skinning. Below is the overview of method one. <br>
 
-<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
+<img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 900px;"/> <br>
 
 The second method used popular and useful body model SMPL to improve the result of method one. Above all, we infered 2D body joints from RGB video with CNN and then fitted a SMPL body model which contributed its pose parameters. And then we directly fitted a SMPL model to 3D static scan and extracted its shape parameters. The next step was SMPL fusing and added smoothness between consecutive frames which can also discarded odd frames. In the end we used deformation transfer to convert SMPL model to human scan.  Below is the overview of method two. <br>
    
-<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
+<img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 900px;"/> <br>
 
 * Proposed a new method to address character animation with only one RGB camera(video)
 * Integrated shape parameter from human model and pose parameter from video and optimized results with inter-frame information
