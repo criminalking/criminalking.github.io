@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hello, my name is Xinran(Conny) Lu, and I am a first year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. This is my [CV]({{ "Resume_LuXinran.pdf" | relative_url }}). I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
+Hello, my name is Luca Lu, and I am a first year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
 
 ### Research Interests
 
