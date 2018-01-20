@@ -3,12 +3,16 @@ layout: page
 title: Projects
 permalink: /project/
 ---
-## Egocentric Face Reconstruction with side cameras on VR glasses
+## Egocentric Face Reconstruction with side cameras on Hololens
 
 `8/2017 - Present` <br>
 `Research assistant, advised by Henry Fuchs, Department of Computer Science, University of North Carolina at Chapel Hill`
 
-This project is the beginning of my PhD career. I'm going to use two side-face images captured by two RGB cameras fixed on Hololens to construct user's face. Face reconstruction with side faces is still a challenging problem and nobody can reconstruct a photorealistic face with just side-face images now. But this work is very amazing!!! It could be used on AR telepresence system, just like [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/), VR game and so on. Imaging you are in the virtual world, stand in front of the virtual mirror and smile, what do you want to see? Also a smiling man, right? That's what I'm doing. <br>
+This project is the beginning of my PhD career. I'm going to use two side-face images captured by two RGB cameras fixed on Hololens to construct user's face. Face reconstruction with side faces is still a challenging problem and as far as I know, nobody can reconstruct a photorealistic face with just side-face images now. But this work is very amazing!!! It could be used on AR telepresence system, just like [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/), VR game and so on. Imaging you are in the virtual world, stand in front of the virtual mirror and smile, what do you want to see? Also a smiling man, right? That's what I'm doing. <br>
+
+Except for visual information, we also used audio information to improve the reconstruction result. We trained a neural network to infer expression parameters.
+
+This face reconstruction result will also be used in our big egocentric reconstruction project which will animate the environment and user face and body together.
 
 <img src="{{ site.baseurl }}/images/project1_11.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
 This is camera installation result of our project. <br>

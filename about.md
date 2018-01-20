@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hello, my name is Luca Lu, and I am a first year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
+Hello, my name is Conny Lu, and I am a first year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
 
 ### Research Interests
 
@@ -32,7 +32,7 @@ Here's a fantastic [video](https://www.youtube.com/watch?v=Ihx1BO7_Jvc)!
 
 ### Special Experience
 
-I have learned German for 6 years in my middle school and past the DSD C1 examination. At the first year in the high school, I spent one term in Goettingen, Germany as an exchange student(Austauschschueler). That was a very happy and easy time. I met a lot of interesting people and I love Germany kids very much! <br>
+I have learned German for 6 years in my middle school and past the DSD C1 examination. At the first year in the high school, I spent one term in Goettingen, Germany as an exchange student(Austauschschueler). That was a very amazing time. I met a lot of interesting people and I love Germany kids very much! <br>
 Below is the beautiful wall of my exchange Germany high school.
 
 <img src="{{ site.baseurl }}/images/about1_3.jpeg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/>
