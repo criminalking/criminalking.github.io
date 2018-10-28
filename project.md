@@ -3,21 +3,41 @@ layout: page
 title: Projects
 permalink: /project/
 ---
+## High-precision gaze tracking
+
+`9/2018 - Present` <br>
+`Research intern, advised by Derek Bradley and Thabo Beeler, Disney Research Zurich`
+
+
+System: Ubuntu 16.04 <br>
+Programming Language: c++/Python/Lua
+
+After coming to Disney Research Zurich, I began to work on a very interesting new topic - Eye tracking. Eye tracking could be used in a wide range of applications, such as human-computer interaction, psycholinguistics, marketing and so on. We are working on tracking eye gaze based on high-fidelity eye model and eye rig. In order to track eye gaze in real-time, we decided to use deep learning method for infering high-accuracy gaze direction.
+
+Images coming soon.
+
 ## Egocentric Face Reconstruction with side cameras on Hololens
 
-`8/2017 - Present` <br>
+`8/2017 - 7/2018` <br>
 `Research assistant, advised by Henry Fuchs, Department of Computer Science, University of North Carolina at Chapel Hill`
 
-This project is the beginning of my PhD career. I'm going to use two side-face images captured by two RGB cameras fixed on Hololens to construct user's face. Face reconstruction with side faces is still a challenging problem and as far as I know, nobody can reconstruct a photorealistic face with just side-face images now. But this work is very amazing!!! It could be used on AR telepresence system, just like [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/), VR game and so on. Imaging you are in the virtual world, stand in front of the virtual mirror and smile, what do you want to see? Also a smiling man, right? That's what I'm doing. <br>
+System: Ubuntu 16.04 <br>
+Programming Language: c++/Python
 
-Except for visual information, we also used audio information to improve the reconstruction result. We trained a neural network to infer expression parameters.
+This project is the beginning of my PhD career. With the rise of VR/AR, 3D telepresence attracted more and more attention. [Microsoft Research Holoportation project](https://www.microsoft.com/en-us/research/project/holoportation-3/) is one of the good examples. They reconstructed high-quality 3D models of people, compressed and transmitted them to anywhere in the world in real time. This technology allows users to see, hear, and interact with remote participants in 3D as if they are actually present in the same physical space. However, they used multiple RGBD cameras fixed in a room to reconstruct which is limited to professional user and also not convenient to move. What we want to achieve is to reconstruct whole user face, body and environment around the user with only a modified Hololens.
 
-This face reconstruction result will also be used in our big egocentric reconstruction project which will animate the environment and user face and body together.
+I'm mainly responsible for human face reconstruction. Face reconstruction with side faces is still a challenging problem and as far as I know, nobody has reconstructed a photorealistic face with only side-face images until now. Our video-based face reconstruction pipeline takes as input two synchronized images from the downward-facing cameras, as well as a pre-scan model of the user's face. For each captured time instant, we first detect 2D landmarks in the two images with a finetuned CNN based on side face images, and then compute a deformation of the pre-scan that minimizes the reprojection error between the face model's fiducial 3D landmarks and their corresponding 2D detections. However, full-face reconstruction relying solely on ego-centric views is challenging due to the oblique viewing angles. Moreover, video-based reconstruction is hindered if the face is partially occluded. We address these problems by augmenting the face reconstruction with geometry derived from the captured audio. We trained a CNN to infer expression parameters and combine them with video expression parameters as final result.
 
-<img src="{{ site.baseurl }}/images/project1_11.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 600px;"/> <br>
+<img src="{{ site.baseurl }}/images/project1_11.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/> <br>
 This is camera installation result of our project. <br>
 
-To be continued...
+<img src="{{ site.baseurl }}/images/project1_12.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/> <br>
+2D facial landmark detection and 3D model fitting results. White points in the first (indoor) and third (outdoor) columns show the 66 2D landmarks. The second and fourth columns show the mesh fitting visualization with all mesh vertices (green) projected into the images.
+
+<img src="{{ site.baseurl }}/images/project1_13.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;"/> <br>
+Two video/audio-based fitting results. The first column shows the original image captured by the right side camera, and the second and third columns respectively show reconstruction results using only video or audio. The last column shows the final result of combining video and audio. The top row shows a result where the face is unoccluded; in this case, the combined result closely matches the video-only result. The second row demonstrates the contribution of audio-based capture when the face is partially occluded.
+
+<span style="color:red">News</span> Our paper ***Towards fully mobile 3d face, body, and environment capture using only head-worn cameras*** is accepted by 2018 IEEE Transactions on Visualization and Computer Graphics (TVCG).
 
 ## Motion Capture and Character Animation
 
@@ -32,7 +52,7 @@ In this project, I captured human motion from a RGB video and then embedded it i
 <img src="{{ site.baseurl }}/images/project1_8.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 900px;"/> <br> <br>
 
 The second method used popular and useful body model SMPL to improve the result of method one. Above all, we infered 2D body joints from RGB video with CNN and then fitted a SMPL body model which contributed its pose parameters. And then we directly fitted a SMPL model to 3D static scan and extracted its shape parameters. The next step was SMPL fusing and added smoothness between consecutive frames which can also discarded odd frames. In the end we used deformation transfer to convert SMPL model to human scan.  Below is the overview of method two. <br>
-   
+
 <img src="{{ site.baseurl }}/images/project1_9.png" alt="Constructocat by https://github.com/jasoncostello" style="width: 900px;"/> <br>
 
 * Proposed a new method to address character animation with only one RGB camera(video)
