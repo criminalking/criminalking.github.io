@@ -3,7 +3,7 @@ layout: post
 title: GAN Learning
 ---
 
-Hello welcome to my third post! Today I want to talk about GAN Learning! Many ideas below are borrowed from [1].
+Hello welcome to my second post! Today I want to talk about GAN Learning! Many ideas below are borrowed from [1].
 
 Generative adversarial networks(GANs) are an example of generative models.
 
