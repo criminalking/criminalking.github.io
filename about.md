@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hello, my name is Conny Lu, and I am a second year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
+Hello, my name is Conny Lu, and I am a third year PhD student at Department of Computer Science, University of North Carolina at Chapel Hill advised by Prof. [Henry Fuchs](http://henryfuchs.web.unc.edu/) in UNC Graphics and Virtual Reality group. I received my BS degree in Automation from Tsinghua University, advised by Prof. [Yebin Liu](http://media.au.tsinghua.edu.cn/liuyebin.jsp) in Broadband Network & Digital Media Lab.
 
 ### Research Interests
 
@@ -30,7 +30,7 @@ Below is an image of RIVAL(a character in *Attack on Titan*) and me.
 One of my other interests is dancing. I tried almost all kinds of dances, popping, hiphop, jazz, locking, etc. My favorite one is popping, it is soooooo cool!!! People DANCE LIKE ROBOTS OR PUPPETS!!! <br>
 Here's a fantastic [video](https://www.youtube.com/watch?v=Ihx1BO7_Jvc)!
 
-### Special Experience
+### Life
 
 I have learned German for 6 years in my middle school and past the DSD C1 examination. At the first year in the high school, I spent one semester in Goettingen, Germany as an exchange student(Austauschschueler). That was a very amazing time. I met a lot of interesting people and I love Germany kids very much! <br>
 Below is the beautiful wall of my exchange Germany high school.
