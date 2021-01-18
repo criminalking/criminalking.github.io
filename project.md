@@ -5,7 +5,7 @@ permalink: /project/
 ---
 ## High-precision gaze tracking
 
-`9/2018 - Present` <br>
+`9/2018 - 1/2019` <br>
 `Research intern, advised by Derek Bradley and Thabo Beeler, Disney Research Zurich`
 
 
